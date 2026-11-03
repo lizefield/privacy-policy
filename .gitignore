@@ -1,0 +1,7 @@
+# Local review and operations notes belong outside this public repository.
+/AUDIT.txt
+/INQUIRY-IMPLEMENTATION.txt
+/RETENTION-OPERATIONS.txt
+/audit-snapshot.json
+__pycache__/
+*.pyc

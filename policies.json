@@ -371,6 +371,71 @@
       }
     },
     {
+      "slug": "gear-composer",
+      "name": "GearComposer",
+      "package": "com.lizefield.gearcomposer",
+      "ios_bundle": "com.lizefield.gearcomposer",
+      "inquiry_category": "general",
+      "alias": {
+        "en": "",
+        "ja": ""
+      },
+      "sections": {
+        "en": [
+          [
+            "Game data and settings stored on your device",
+            "GearComposer stores game names, equipment slots and their order, attribute definitions and values, classes, ranks and colors, item names and tags, owned quantities, and supplied metadata in a local SQLite database. Saved equipment sets include names, search conditions, selected items, totals, identifiers, timestamps and snapshots of definitions and items. The owned-items-only preference is saved between sessions using UserDefaults on iOS and app-private SharedPreferences on Android."
+          ],
+          [
+            "Calculations and external processing",
+            "Equipment searches and total calculations run on the device. The current app has no developer-operated account or automatic upload or cloud synchronization of game data, and includes no advertising or analytics SDK. Platform stores can communicate when the app starts to check product and purchase availability, as well as during purchase, restore and rechecks. Apple, Google and operating-system services process information under their own policies. Inquiries sent through this website follow the common provisions below."
+          ],
+          [
+            "JSON import, export and clipboard",
+            "Import reads the JSON file you select and saves its contents in the app. Catalog export excludes owned quantities, saved sets and metadata at every level, but still includes catalog names, tags, definitions and item values; review these before sharing. Personal backups retain metadata, ownership and saved sets, and can include information you entered yourself. Purchase entitlement records are not included in either export. Sample JSON contains fictional example data, not your records. Saving or sharing passes the chosen file to the selected operating-system file location or recipient. File providers and cloud destinations may process it outside the app. Copying a set writes its names, conditions and values to the system clipboard, whose sharing behavior depends on your device settings."
+          ],
+          [
+            "Pro purchases and local entitlement records",
+            "Pro purchase and restore use Apple StoreKit on iOS and Google Play Billing on Android. The app uses available product, transaction and purchase-status information to verify Pro access. It retains the last confirmed Pro status, product identifier and check time locally: in iOS Keychain and in an encrypted app-private Android file protected by Android Keystore. Store purchases and purchase history are handled by the relevant store and are separate from your equipment database and JSON backups."
+          ],
+          [
+            "Retention, deletion and backup limits",
+            "Game data remains until you edit or delete it. Deleting an item does not automatically erase copies of that item kept in saved-set snapshots; deleting a set removes its saved history, while deleting a game removes that game and its ownership and sets. These operations do not erase the app-wide owned-items-only preference, entitlement records, exported files, clipboard contents or copies held by recipients. Android sharing creates a temporary export copy in the app cache; copies older than 24 hours are cleaned up when another share is prepared, rather than at an exact automatic expiry time. Files saved in Downloads or another provider must be removed separately. Operating-system app-data controls may be needed for remaining local records, and iOS Keychain entitlement data can remain separately from the app container. Store history and independently held copies follow their providers' controls."
+          ],
+          [
+            "Backups and device changes",
+            "GearComposer does not provide automatic cloud backup or synchronization. The iOS game database directory is marked as excluded from backup. Android disables app backup and configures exclusions for cloud backup and device transfer. These settings do not delete exports or copies already kept by the operating system or another provider; platform behavior follows the applicable device and service settings. Export a personal JSON backup to keep a copy of your game records; importing or restoring JSON currently requires Pro."
+          ]
+        ],
+        "ja": [
+          [
+            "端末内に保存するゲームデータと設定",
+            "GearComposerは、ゲーム名、装備先と表示順、属性の定義と値、クラス、ランクと色、アイテム名・タグ、所持数、取り込んだmetadataを端末内のSQLiteデータベースに保存します。保存セットには、名前、検索条件、選択アイテム、合計値、識別子、日時、保存時の定義・アイテムの履歴を含みます。「所持アイテムのみ」の設定は、iOSのUserDefaults、Androidのアプリ専用SharedPreferencesに保存し、次回起動時にも引き継ぎます。"
+          ],
+          [
+            "計算と外部の処理",
+            "装備の組み合わせ検索と合計値の計算は端末内で行います。現在のアプリには開発者独自のアカウント、ゲームデータの自動送信・クラウド同期、広告・アクセス解析SDKはありません。購入・復元・権利の再確認のほか、起動時の商品情報・購入状態の確認でもストアとの通信が発生する場合があります。Apple・Google・OSのサービスが扱う情報には各提供者の方針が適用されます。本サイトからのお問い合わせには下記の共通事項を適用します。"
+          ],
+          [
+            "JSONの取り込み・書き出しとクリップボード",
+            "取り込みでは選択したJSONファイルを読み、内容をアプリ内に保存します。カタログ共有では所持数・保存セットと、すべての階層のmetadataを除外しますが、名称・タグ・定義・アイテムの値は含むため、共有前にご確認ください。個人バックアップにはmetadata・所持情報・保存セットを保持し、ご自身が入力した情報も含まれます。どちらの書き出しにも購入権利の記録は含めません。サンプルJSONは架空の例で、ご自身の記録を含みません。保存・共有では選択したファイルをOSの保存先や送信先へ渡します。ファイル提供元やクラウド保存先ではアプリ外の処理が行われる場合があります。セットのコピーでは名称・条件・数値をOSのクリップボードへ書き込み、端末設定によっては端末間で共有されることがあります。"
+          ],
+          [
+            "Pro購入と端末内の権利情報",
+            "Proの購入・復元はiOSではApple StoreKit、AndroidではGoogle Play Billingを使用します。取得できる商品・取引・購入状態の情報をProの利用可否の確認に使用します。最後に確認したPro状態、商品ID、確認日時を、iOSではKeychainに、AndroidではAndroid Keystoreで保護した暗号化済みのアプリ専用ファイルに保存します。ストアでの決済や購入履歴は各ストアが扱い、装備データベースやJSONバックアップとは別に管理されます。"
+          ],
+          [
+            "保存期間・削除と外部コピー",
+            "ゲームデータは編集・削除するまで端末に残ります。アイテムを削除しても保存セットの履歴内に保持したアイテムのコピーは自動では消去しません。セットの削除ではその保存履歴を、ゲームの削除では対象ゲームの所持情報・保存セットも削除します。これらの操作では、アプリ共通の所持条件設定、購入権利の記録、書き出したファイル、クリップボード、送信先のコピーは消去しません。Androidの共有ではアプリのキャッシュに一時コピーを作り、24時間を過ぎたコピーを次の共有準備時に削除します。24時間ちょうどの自動消去ではありません。ダウンロードや別の保存先に出力したファイルは個別に削除してください。残っている端末内の記録にはOSのアプリデータ消去等が必要になる場合があり、iOSのKeychainの権利情報はアプリ本体の保存領域とは別に残る場合があります。ストアの履歴や他の提供者が保持するコピーには各提供者の削除の仕組みが適用されます。"
+          ],
+          [
+            "バックアップと端末変更",
+            "GearComposer独自の自動クラウドバックアップ・同期はありません。iOSのゲームデータベース用ディレクトリはOSバックアップの除外対象に設定しています。Androidはアプリのバックアップを無効化し、クラウドバックアップ・端末間移行からの除外を設定しています。この設定だけで、書き出したファイルやOS・他の提供者がすでに保持するコピーが削除されるものではなく、OS等の動作は端末・サービス側の設定にも従います。ゲーム記録を残す場合は個人バックアップを書き出してください。現在、JSONの取り込み・復元にはProが必要です。"
+          ]
+        ]
+      }
+    },
+    {
       "slug": "speech-review",
       "name": "Speech Review",
       "package": "jp.lizefield.speechreview",

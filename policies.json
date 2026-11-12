@@ -369,6 +369,63 @@
           ]
         ]
       }
+    },
+    {
+      "slug": "speech-review",
+      "name": "Speech Review",
+      "package": "jp.lizefield.speechreview",
+      "ios_bundle": "jp.lizefield.speechreview",
+      "inquiry_category": "general",
+      "alias": {
+        "en": "",
+        "ja": ""
+      },
+      "sections": {
+        "en": [
+          [
+            "Microphone and practice records",
+            "Speech Review uses microphone audio, with your permission, for input checks, recording, transcription and voice analysis. It stores your scripts and revisions, practice goals and selected ranges, recording dates and audio, transcription results and status, differences from the script, estimated voice and timing measurements, your reflections and correction or exception settings. These records support playback, review and practice history."
+          ],
+          [
+            "On-device transcription",
+            "The iOS app uses Apple SpeechAnalyzer and SpeechTranscriber. The Android app uses Google ML Kit Speech Recognition in Basic mode. Transcription and the app's voice analysis run on the device; the app does not switch to cloud transcription when recognition is unavailable. Preparing or updating speech models can require an internet connection and storage managed by Apple or Google services. Availability depends on the device, OS, language and installed models."
+          ],
+          [
+            "Local storage and playback",
+            "Practice records and original recordings are saved in app-managed storage and remain after closing the app. Recording details can include the device and OS, audio input/output routes, sample rate, processing conditions and recognition or analysis status. Display and playback preferences are also stored locally. Peak-normalized playback can create a temporary audio copy; normal playback cleanup removes that copy, but an abnormal termination can leave cache files until the OS or app-data controls remove them."
+          ],
+          [
+            "External services, diagnostics and backups",
+            "The app has no account registration and does not upload your recordings, scripts or transcripts to a developer-operated server. It does not integrate advertising or an independent analytics service. Android configuration disables optional ML Kit telemetry. Model delivery and OS or SDK services may nevertheless process connection information, device/app information, configured languages or diagnostics under their providers' policies; local recognition does not mean all provider communication is absent. iOS app data may be included in OS backups according to your settings. The Android app disables backup and excludes its app data from cloud backup and device transfer in its extraction rules. Copies managed outside the app follow the relevant provider's controls."
+          ],
+          [
+            "Retention and deletion",
+            "Saved practice records remain until you delete them or remove local app data. An interrupted recording may be retained for recovery. Deleting a take removes its saved record, including transcription, analysis and reflections, and attempts to remove its audio file. Deleting a script also removes its associated practice history and exception rules. Audio-file cleanup failures are reported in the app. OS app-data controls can be used to remove remaining local files and preferences. These actions do not guarantee physical secure erasure or deletion of independently retained backups, model assets or provider records. Inquiries sent through this website follow the common provisions below."
+          ]
+        ],
+        "ja": [
+          [
+            "マイクと練習記録",
+            "Speech Reviewは、マイクの使用を許可した場合、入力確認、録音、文字起こし、声の解析にマイク音声を使用します。原稿と改訂履歴、練習の目標と対象範囲、録音日時と音声、文字起こしの結果と処理状態、原稿との差分、声や時間に関する推定値、本人の振り返り、訂正・例外の設定を保存し、再生、振り返り、練習履歴の表示に使用します。"
+          ],
+          [
+            "端末内での文字起こし",
+            "iOSではAppleのSpeechAnalyzer・SpeechTranscriberを、AndroidではGoogle ML Kit Speech RecognitionのBasicモードを使用します。文字起こしとアプリの声の解析は端末内で行い、認識を利用できない場合にクラウド文字起こしへ切り替えることはありません。音声モデルの準備や更新には通信と、Apple・Googleのサービスが管理する保存領域を使用する場合があります。利用可否は端末、OS、言語、導入済みモデルによって異なります。"
+          ],
+          [
+            "端末内保存と再生",
+            "練習記録と録音した元の音声はアプリの管理領域に保存し、アプリを閉じた後も残ります。録音詳細には、端末・OS、音声の入出力経路、サンプルレート、音声処理の条件、認識・解析の状態等を含む場合があります。画面の外観や再生に関する設定も端末内に保存します。ピークに合わせて音量を調整する再生では一時的な音声コピーを作成する場合があり、通常は再生終了等で削除しますが、異常終了時にはOSやアプリデータの消去で削除されるまでキャッシュが残ることがあります。"
+          ],
+          [
+            "外部サービス・診断情報・バックアップ",
+            "アカウント登録はなく、録音音声、原稿、文字起こし結果を開発者のサーバーへアップロードする処理はありません。広告や独自の利用解析サービスは組み込んでいません。Androidでは任意のML Kitテレメトリーを無効にする設定を行っています。ただし、モデルの配信、OSやSDKのサービスでは、接続情報、端末・アプリ情報、設定言語、診断情報等を各提供者の方針に従って扱う場合があり、端末内認識という説明が提供者による通信すべての不在を意味するものではありません。iOSのアプリデータは設定に応じてOSのバックアップに含まれる場合があります。Androidはバックアップを無効にし、データ抽出ルールでもアプリデータをクラウドバックアップと端末間転送から除外しています。アプリ外で管理されるコピーには各提供者の仕組みが適用されます。"
+          ],
+          [
+            "保存期間と削除",
+            "保存した練習記録は、利用者が削除するか端末内のアプリデータを消去するまで保持します。中断した録音も復元のために残る場合があります。テイクを削除すると、文字起こし、解析、本人の振り返りを含む保存記録を削除し、音声ファイルの削除を試みます。原稿を削除すると、関連する練習履歴と例外ルールも削除します。音声ファイルの削除に失敗した場合はアプリに通知を表示します。残ったファイルや設定はOSのアプリデータ消去機能等で削除できます。これらの操作は、物理的な完全消去や、別に保持されたバックアップ、モデルデータ、提供者の記録の削除を保証するものではありません。本サイトからのお問い合わせには、下記の共通事項が適用されます。"
+          ]
+        ]
+      }
     }
   ],
   "common": {
@@ -433,5 +490,5 @@
       ]
     ]
   },
-  "updated_date": "2026-11-03"
+  "updated_date": "2026-11-13"
 }

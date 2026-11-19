@@ -491,6 +491,39 @@
           ]
         ]
       }
+    },
+    {
+      "slug": "tokihz",
+      "name": "TokiHz",
+      "package": "com.lizefield.tokihz",
+      "ios_bundle": "com.lizefield.tokihz",
+      "inquiry_category": "general",
+      "alias": {
+        "en": "",
+        "ja": ""
+      },
+      "sections": {
+        "en": [
+          [
+            "Clock display and data collection",
+            "TokiHz reads the device time and time zone to display the local time. It measures the interval between screen updates on the device to show the refresh rate and choose how many fractional-second digits to display. The app does not retain a history of these readings. It has no user accounts, advertising or analytics and does not send app data over the network."
+          ],
+          [
+            "Saved settings, backups and deletion",
+            "TokiHz stores your color scheme, clock text size and keep-screen-awake preference on the device for future launches. You can remove these local settings by uninstalling the app or, on Android, clearing its app storage. The Android app disables backup and excludes these settings from cloud backup and device-to-device transfer in its data extraction rules. On iOS, the settings may be included in an operating-system backup depending on your backup settings."
+          ]
+        ],
+        "ja": [
+          [
+            "時計の表示とデータ収集",
+            "TokiHzは、端末の時刻とタイムゾーンを使って現地時刻を表示します。画面更新の間隔を端末内で測定し、更新頻度の表示と、秒の小数部を何桁表示するかの判定に使います。読み取った時刻や測定値の履歴は保存しません。アカウント登録、広告、利用状況の分析はなく、アプリからネットワーク経由でデータを送信することはありません。"
+          ],
+          [
+            "設定の保存・バックアップ・削除",
+            "配色、時計の文字サイズ、自動ロック・画面スリープ防止の設定を端末内に保存し、次回の起動時に読み込みます。端末内の設定は、アプリの削除、またはAndroidのアプリストレージの消去で削除できます。Android版ではバックアップを無効にし、データ抽出ルールでこれらの設定をクラウドバックアップと端末間転送の対象から除外しています。iOS版では、端末のバックアップ設定に応じてアプリの設定がOSのバックアップに含まれる場合があります。"
+          ]
+        ]
+      }
     }
   ],
   "common": {
@@ -555,5 +588,5 @@
       ]
     ]
   },
-  "updated_date": "2026-11-13"
+  "updated_date": "2026-11-19"
 }

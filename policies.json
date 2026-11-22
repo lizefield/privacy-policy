@@ -524,6 +524,55 @@
           ]
         ]
       }
+    },
+    {
+      "slug": "nowren",
+      "name": "NowRen",
+      "package": "com.lizefield.nowren",
+      "ios_bundle": "com.lizefield.nowren",
+      "inquiry_category": "general",
+      "alias": {
+        "en": "Listed in Japanese as なうれん",
+        "ja": "日本語での掲載名：なうれん"
+      },
+      "sections": {
+        "en": [
+          [
+            "Anonymous use and information sent to Octerv",
+            "NowRen lets you use the app without signing up or signing in. When you first submit a practice start in the connected app, OctervAuth creates an app-specific anonymous identifier and issues credentials. The app sends your nickname, optional social-profile link, selected instrument or part, practice session timing and status, and any start or end comments you submit with their language codes to the Octerv practice service. The service uses these details to authenticate requests, record practice, provide your history, and show practice activity to other app users. Connection information such as your IP address may be processed for service operation and abuse prevention. NowRen does not record audio or collect device location."
+          ],
+          [
+            "What other app users can see",
+            "Other NowRen users may see your nickname, practice part, elapsed practice time, any comments you share, and your social-profile link if you provide one. The link is optional and can be removed in your profile settings. If someone opens the link, the destination service handles that visit under its own policy. Public comment history covers the last 28 days. Your full personal practice history and personal practice graphs are private. If you report a comment or block another user, the service processes the relevant comment or user identifier and, for a report, the reason you select."
+          ],
+          [
+            "Device storage and backups",
+            "The app stores settings, practice records and pending submissions on your device. It calculates personal practice graphs on the device. Pending operations may be retried when connectivity returns, including in the background. Long-term credentials are protected by the iOS Keychain or Android Keystore. The connected iOS build excludes its practice data folder from device backups. Android disables app backup and excludes app data from cloud backup and device-to-device transfer in its data extraction rules."
+          ],
+          [
+            "Retention and deletion inquiries",
+            "The 28-day public display period does not remove the practice history you can view privately. Uninstalling NowRen or clearing its local data does not delete data already sent to Octerv. For a request about data stored on the server, use the inquiry form below, select General / Another app, and include NowRen in your message. Keep your app credentials private. We may need to verify that the request concerns your records before we can act. Backup copies may remain subject to their backup retention period."
+          ]
+        ],
+        "ja": [
+          [
+            "匿名での利用とOctervへの送信",
+            "なうれんは登録やログインなしで利用できます。サーバーに接続する版では、最初に練習開始を送信するときに、OctervAuthがアプリ専用の匿名利用者IDと認証用の資格情報を発行します。ニックネーム、任意のSNSプロフィールURL、選択した楽器・パート、練習の時刻・状態、任意で入力した開始・終了時の一言とその言語コードをOctervの練習サービスへ送信します。これらは通信の認証、練習の記録、本人用の履歴表示、ほかの利用者への練習状況の表示に使います。サービスの運用や不正利用対策のために、IPアドレス等の接続情報を処理する場合があります。アプリは音声を録音せず、端末の位置情報を取得しません。"
+          ],
+          [
+            "ほかの利用者に表示する情報",
+            "ニックネーム、練習パート、練習の経過時間、投稿した一言、任意で登録したSNSプロフィールへのリンクが、ほかの利用者に表示される場合があります。SNSリンクはプロフィール設定から削除できます。リンクの閲覧にはリンク先サービスの方針が適用されます。一言の公開履歴は直近28日間です。本人用の練習履歴全体と練習グラフは非公開です。一言を通報したり、ほかの利用者をブロックしたりした場合は、対象の一言または利用者の識別子と、通報の場合は選択した理由を処理します。"
+          ],
+          [
+            "端末内の保存とバックアップ",
+            "設定、練習記録、送信待ちの内容を端末内に保存し、本人用の練習グラフを端末内で集計します。送信待ちの操作は、通信が回復した際にバックグラウンドでも再試行される場合があります。長期の資格情報はiOSのKeychainまたはAndroid Keystoreを使って保護します。サーバーに接続するiOS版では練習データの保存先を端末のバックアップから除外しています。Android版ではアプリのバックアップを無効にし、データ抽出ルールでクラウドバックアップと端末間転送からアプリデータを除外しています。"
+          ],
+          [
+            "保存期間と削除のご相談",
+            "28日間は一言の公開表示期間です。本人用の練習履歴はその期間を過ぎても閲覧できます。アプリのアンインストールや端末内のデータの消去では、Octervへ送信済みのデータは削除されません。サーバーに保存されたデータの削除については、下記フォームで「共通・その他のアプリ」を選び、本文に「なうれん」と記載してください。資格情報は送信しないでください。対応にあたり、ご本人の記録であることの確認が必要な場合があります。バックアップ内のデータは、その保存期間中は残る場合があります。"
+          ]
+        ]
+      }
     }
   ],
   "common": {
@@ -588,5 +637,5 @@
       ]
     ]
   },
-  "updated_date": "2026-11-19"
+  "updated_date": "2026-11-22"
 }

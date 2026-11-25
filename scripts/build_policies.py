@@ -53,7 +53,7 @@ def providers(lang, app):
  rows=[('https://policies.google.com/privacy','Google '+('Privacy Policy' if lang=='en' else 'プライバシーポリシー')),('https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement','GitHub '+('Privacy Statement' if lang=='en' else 'プライバシーに関する説明'))]
  if app and app['slug']=='voluclip':rows.append(('https://developers.google.com/ar/develop/privacy-requirements','ARCore '+('privacy information' if lang=='en' else 'プライバシー情報')))
  if app and app['slug'] in ['drumstick-id','speech-review']:rows.append(('https://developers.google.com/ml-kit/android-data-disclosure','ML Kit Android '+('data disclosure' if lang=='en' else 'データ開示情報')))
- if app and app['slug'] in ['octerv-setlist','repop-tracker','voluclip','drumstick-id','gear-composer','speech-review','tokihz','nowren']:
+ if app and app['slug'] in ['octerv-setlist','repop-tracker','voluclip','drumstick-id','gear-composer','speech-review','tokihz','nowren','mixunel']:
   rows.append(('https://www.apple.com/legal/privacy/','Apple '+('Privacy Policy' if lang=='en' else 'プライバシーポリシー')))
  return '<ul>'+''.join('<li>'+external(url,label)+'</li>' for url,label in rows)+'</ul>'
 def render(lang,app=None):

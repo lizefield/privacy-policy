@@ -573,6 +573,47 @@
           ]
         ]
       }
+    },
+    {
+      "slug": "mixunel",
+      "name": "Mixunel",
+      "package": "com.lizefield.mixunel",
+      "ios_bundle": "com.lizefield.mixunel",
+      "inquiry_category": "general",
+      "alias": {
+        "en": "",
+        "ja": ""
+      },
+      "sections": {
+        "en": [
+          [
+            "Audio and on-device processing",
+            "Mixunel for iOS, iPadOS, macOS and Android reads the WAV files you select and copies them into the project. It analyzes, mixes and plays the audio on your device. The current version uses imported audio and does not access the microphone. The app has no account registration, ads or usage analytics, and it does not send your audio or project data to the developer's servers."
+          ],
+          [
+            "Project storage and export",
+            "Mixunel stores copies of your source audio, project and track names, audio file information, mix settings and undo history, and preview audio on your device. It also saves playback and appearance preferences. Export creates a stereo WAV at the location you choose through your operating system. If you import from or export to a cloud storage provider, that provider handles the files at that location under its own policy."
+          ],
+          [
+            "Retention, deletion and backups",
+            "Saved projects remain on your device between sessions. You can remove tracks and delete projects in Mixunel. Project deletion removes the project from the app and attempts to delete its local data. If cleanup is incomplete, Mixunel retries when it next loads the project list. You can manage original files, exported WAVs and backup copies at their respective locations. Android disables automatic cloud backup for Mixunel, though some devices may still transfer app data directly to another device. On iPhone, iPad and Mac, project data and preferences may be included in system backups depending on your settings."
+          ]
+        ],
+        "ja": [
+          [
+            "音声ファイルと端末内処理",
+            "iOS・iPadOS・macOS・Android版のMixunelは、選択したWAVファイルを読み取り、プロジェクト内にコピーします。音声の解析、ミックス、試聴は端末内で行います。現行版は取り込んだ音声を使用し、マイクにはアクセスしません。アカウント登録、広告、利用状況の分析はなく、音声やプロジェクトデータを開発者のサーバーに送信することはありません。"
+          ],
+          [
+            "プロジェクトの保存と書き出し",
+            "取り込んだ音源のコピー、プロジェクト名・トラック名、音声ファイルの情報、ミックス設定と取り消し用の履歴、試聴用の音声を端末内に保存します。再生や外観の設定も保存します。書き出したステレオWAVは、OSのファイル選択画面で指定した場所に保存します。クラウドストレージから読み込んだり、クラウドストレージに書き出したりする場合、その保存先にあるファイルには各サービスの方針が適用されます。"
+          ],
+          [
+            "保存期間・削除・バックアップ",
+            "保存したプロジェクトはアプリを閉じた後も端末に残ります。アプリ内でトラックの削除やプロジェクトの削除ができます。プロジェクトを削除すると一覧から取り除き、端末内の関連データを削除します。削除しきれなかったデータは、次にプロジェクト一覧を読み込む際に再度削除を試みます。取り込み元のファイル、書き出したWAV、バックアップのコピーは、それぞれの保存先で管理できます。Android版ではアプリの自動クラウドバックアップを無効にしていますが、一部の端末では機種変更時などにアプリデータが直接転送される場合があります。iPhone・iPad・Macでは、設定に応じて、プロジェクトや設定がOSのバックアップに含まれる場合があります。"
+          ]
+        ]
+      }
     }
   ],
   "common": {
@@ -637,5 +678,5 @@
       ]
     ]
   },
-  "updated_date": "2026-11-22"
+  "updated_date": "2026-11-25"
 }
